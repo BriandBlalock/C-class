@@ -99,7 +99,7 @@ void countOf(int A[] , int n ){
 void changeElement(int A[],int n){
 	
 	int value=0; 
-	int index = 0;
+	int index = -1;
 	
 	
 	printf("Enter index to change\n");
@@ -114,7 +114,7 @@ void changeElement(int A[],int n){
 			printf("Updated\n");
 			break;
 		}
-	}1
+	}
 	
 }
 
